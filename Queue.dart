@@ -14,3 +14,20 @@ main() {
   }
   print(q);
 }
+
+
+
+//new queue.
+
+
+
+import 'dart:collection'; 
+void main() { 
+   Queue numQ = new Queue(); 
+   numQ.addAll([30,20,10]);  
+   Iterator i= numQ.iterator; 
+   
+   while(i.moveNext()) { 
+      print(i.current); 
+   } 
+}

@@ -19,3 +19,13 @@ main() {
   for (var key in colors.keys) print(key);
   for (var value in shapes.values) print(value);
 }
+
+
+
+
+
+
+void main() { 
+   Map <String,String>m={'name':'sanjeev','Id':'dps006'}; 
+   print('Map :${m}'); 
+} 

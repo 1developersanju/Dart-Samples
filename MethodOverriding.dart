@@ -1,5 +1,3 @@
-
-//Method Overriding example begin here
 void main(){
   var lessie = Pet();
   lessie.name = "Lessie";
@@ -26,3 +24,15 @@ class Animal{
     print("Happy Birthday");
   }
 }
+
+print('"test" \t')
+asdf 	asdf	asdf	
+asdf    asdf	asdf
+
+
+String
+number
+int
+double
+bool
+null

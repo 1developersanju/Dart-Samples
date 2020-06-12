@@ -4,14 +4,14 @@ main() {
   print(a);
 
   // The type can also be declared:
-  num b = 42;
+  num b = 56;
   print(b);
 
   // final variables cannot be changed once declared
-  final num c = 99;
+  final num c = 25;
   print(c);
 
   // const variables are compile-time constants
-  const double d = 44.00;
+  const double d = 24.00;
   print(d);
 }

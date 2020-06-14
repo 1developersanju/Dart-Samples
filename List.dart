@@ -22,3 +22,41 @@ void main() {
       print(type); 
    } 
 }
+
+
+
+
+
+//joining two lists.
+
+
+
+
+void main(){
+    List list1 = ['hi', 'Hello', 84];
+    List list2 = [41, 65];
+    
+    list1.addAll(list2);
+    
+    print(list1);
+}
+
+
+
+
+//list of numbers from 1 to 10
+
+
+
+
+Iterable<int> get positiveIntegers sync* {
+  int i = 0;
+  while (true) yield i++;
+}
+void main() {
+  var list = positiveIntegers
+      .skip(1)   // don't use 0
+      .take(10)  // take 10 numbers
+      .toList(); // create a list
+  print(list);   // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+}

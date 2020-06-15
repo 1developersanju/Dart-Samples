@@ -9,3 +9,15 @@ void main() {
   d = d.add(Duration(days: 20));
   print(d);
 }
+
+//printing current date and time.
+
+
+
+
+
+void main(){
+print(DateTime.now()); 
+
+
+}

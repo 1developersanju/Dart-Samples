@@ -25,8 +25,6 @@ void main() {
 
 
 
-
-
 //joining two lists.
 
 
@@ -59,4 +57,17 @@ void main() {
       .take(10)  // take 10 numbers
       .toList(); // create a list
   print(list);   // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+}
+
+
+
+//adding a no in list.
+
+
+
+void main() { 
+  var even_list = [2,4,6,8]; 
+  print(even_list); 
+  even_list.add(10);
+  print(even_list); 
 }

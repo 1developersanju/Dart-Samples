@@ -6,3 +6,10 @@ void main() {
 }
 
 
+
+
+void main() { 
+   bool flag; 
+   flag = 10 > 15; 
+   print(flag); 
+}

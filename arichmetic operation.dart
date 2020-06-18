@@ -82,3 +82,67 @@ void main() {
    String str2 = "The sum of 2 and 2 is ${2+2}"; 
    print(str2); 
 }
+
+
+
+//multiplication
+
+
+
+
+main() {    
+  var number = 2;
+  var multiplication = 0;
+  var element02 = 1;   
+  for (var i = 0; i < 13; i++) {
+    multiplication = number * i;
+    print(multiplication); 
+  }
+  //element02.text = multiplication;
+
+}
+
+
+
+
+//counting no of letters
+
+
+
+
+void main(){
+  String str = "youressaee";
+  Map<String, int> map = {};
+  for(int i = 0; i < str.length; i++){
+    int count = map[str[i]] ?? 0;
+     map[str[i]] = count + 1;
+  }
+  print(map);
+  
+}
+
+
+
+// finding area of circle.
+
+
+
+import 'dart:math';
+
+abstract class Shape {
+  num get area;
+}
+
+class Circle implements Shape {
+  final num radius;
+  Circle(this.radius);
+  num get area => pi * pow(radius, 3.698282);
+}
+
+
+
+main() {
+  final circle = Circle(2);
+  print(circle.area);
+  
+}

@@ -10,8 +10,8 @@ main() {
   print(name);
   print(bounds);
 }
-
-consants using final key word.
+--------------------------------------------------------------------------
+//consants using final key word.
 
 void main() { 
   final min = 1;   
@@ -19,10 +19,12 @@ void main() {
   print(min); 
   print(max); 
 }
-
-constants using const keyword.
+---------------------------------------------------------------------------------
+//constants using const keyword.
 
 void main() { 
    const pi = 3.14; 
    print(pi); 
 }
+
+-------------------------------------------------------------------------------

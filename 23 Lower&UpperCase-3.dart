@@ -8,7 +8,7 @@ void main(){
     print(content1);
 }
  
-
+------------------------------------------------------------------------------------------
 //converting the first letter of a string to uppercase.
 
 
@@ -22,7 +22,7 @@ void main(){
     print(content[0].toUpperCase() + content.substring(1));
 }
 
-
+-----------------------------------------------------------------------------------------
 
 // converting the first letter of each word in a string into uppercase
 
@@ -47,3 +47,6 @@ String titleCase(String text) {
   });
   return capitalized.join(' ');
 }
+
+
+-----------------------------------------------------------------------------------------

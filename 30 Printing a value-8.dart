@@ -4,14 +4,14 @@ void main() {
    var res = a ?? b; 
    print(res); 
 }
-
+---------------------------------------------------------------
 //printing in new line.
 
 void main() {
   print("Hi,\nhow r u\nwhat is ur name");
 }
 
-or
+---------------------------------------------------------------
 
 void main() { 
    String str1 = 'hi'; 
@@ -25,7 +25,7 @@ void main() {
    print(str4); 
 }
 
-
+----------------------------------------------------------------
 //printing with single quote.
 
 
@@ -35,7 +35,7 @@ void main() {
   print("\'helloeveryone\'");
   
 }
-
+-------------------------------------------------------------
 
 
 //printing with double quote.
@@ -47,7 +47,7 @@ void main() {
   
 }
 
-
+--------------------------------------------------------------
 
 //printing with a tab space.
 
@@ -60,7 +60,7 @@ void main() {
 }
 
 
-
+----------------------------------------------------------
 
 
 //printing with slash.
@@ -73,10 +73,12 @@ void main() {
   
 }
 
-
+--------------------------------------------------------------
 
 //FINDING how many alphebet a is in the text.
 
 void main() {
   print('a'.allMatches('Hello Jordania').length); // 2
 }
+
+------------------------------------------------------------

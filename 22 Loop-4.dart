@@ -61,3 +61,20 @@ void main()
 }
 
 ----------------------------------------------------------------------------------------
+
+
+// dart while loop
+
+
+
+
+void main()
+{
+    var char =1;
+    var maxChar =5;
+    print("Example for dart while loop");
+    while(ctr<=maxChar){      
+        print(char);
+        char = char+1;
+    }
+}

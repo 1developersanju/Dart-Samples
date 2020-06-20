@@ -62,3 +62,22 @@ void main()
 }
 
 
+-----------------------------------------------------------------------
+
+
+
+void main()
+{
+    var count = 0;
+    print("Example for dart break Statement");
+    while(count <= 20){
+        count = count + 1;
+        if(count == 12){
+            break;
+        }
+        print("Inside loop ${count}");
+    }
+    print("Out of while loop");	
+}
+
+

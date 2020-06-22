@@ -147,3 +147,24 @@ main() {
   print(circle.area);
   
 }
+
+-------------------------------------------------------------------------------
+
+//printing sum of an array
+
+import 'dart:convert';
+void main(){
+  var arr = [1, 2, 3].reduce((a, b) => a + b);
+  print (arr);
+
+}
+
+--------------------------------------------------------------------
+// multiply
+
+import 'dart:convert';
+void main(){
+  var arr = [2, 2, 3].reduce((a, b) => a * b);
+  print (arr);
+ing all numbers in an array
+}

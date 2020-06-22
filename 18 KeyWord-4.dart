@@ -28,3 +28,26 @@ void main() {
 }
 
 ------------------------------------------------------------------------------------------
+//super
+
+class SuperClass
+{
+   int num = 40;
+}
+
+class SubClass extends SuperClass
+{
+   /* The same variable num is declared in the SubClass
+    * which is already present in the SuperClass
+    */
+  int num = 200;
+  void printNumber(){
+    print(super.num);
+  }
+  
+}
+
+void main(){
+  SubClass obj= new SubClass();
+  obj.printNumber();	
+}

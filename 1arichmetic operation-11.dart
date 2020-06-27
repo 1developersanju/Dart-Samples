@@ -168,3 +168,11 @@ void main(){
   print (arr);
 ing all numbers in an array
 }
+
+-------------------------------------------------------------------------------
+//finding square root
+
+import 'dart:math'; 
+void main() { 
+   print("Square root of 16 is: ${sqrt(16)}"); 
+}

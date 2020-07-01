@@ -48,3 +48,20 @@ void main() async {
 Future<int> four() async {
  return 4;
 }
+--------------------------------------------------------------------------------
+//yield
+
+import 'dart:async';
+​
+main() async {
+  await for (int i in numbersDownFrom(5)) {
+    print('$i bottles of beer');
+  }
+}
+​
+Stream numbersDownFrom(int n) async* {
+  if (n >= 1) {
+    await new Future.delayed(new Duration(milliseconds: 200));
+    yield n;
+    yield* numbersDownFrom(n - 1);
+  }

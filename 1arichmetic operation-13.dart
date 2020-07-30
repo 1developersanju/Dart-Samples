@@ -176,3 +176,24 @@ import 'dart:math';
 void main() { 
    print("Square root of 16 is: ${sqrt(16)}"); 
 }
+-------------------------_____-------__------_-----__---_-----_--__--_-------_-
+
+//hexValue
+
+
+void main() {
+int hexValue = 0xDA;
+  
+  print (hexValue);
+}
+
+---------------_____------__-----__---__--__-___-__---__-----__---____---------------_--
+
+//exponents
+
+
+void main() {
+double exponents = 1.21e6 ;
+  
+  print (exponents);
+}

@@ -16,3 +16,14 @@ void main(){
     print("Maximum number is $num3");
   }
 }
+-------------------------------------------------------------------------
+
+void main(){
+var salary = 15000;
+
+if (salary > 200000) {
+     print("You are the senior in this office.");
+}else{
+     print("You need to work more to become senior in this office");
+}
+}

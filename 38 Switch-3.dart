@@ -1,4 +1,8 @@
 //The switch statement evaluates an expression, matches the expression’s value to a case clause and executes the statements associated with that case.
+
+//Variable used in switch case can be: Integer , String
+
+
 main() {
   // a typical switch statement
   var piece = 'queen';

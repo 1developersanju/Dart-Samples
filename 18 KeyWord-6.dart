@@ -51,3 +51,29 @@ void main(){
   SubClass obj= new SubClass();
   obj.printNumber();	
 }
+---------------------_------_---_-_----_--_-_--_-_-_--_-__-_-__-----_____-----_--_-----
+
+// break
+
+void main() {
+for (int i = 1; 1<= 10; i++){
+print(i);
+  if (i == 6){
+    break;
+  }
+}
+}
+
+------------------------------------------------------------------------
+//continue
+
+void main() {
+for (int i = 1; 1<= 10; i++){
+print(i);
+  if (i == 6){
+continue;
+  }
+  print (i);
+}
+}
+

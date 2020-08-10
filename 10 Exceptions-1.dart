@@ -3,6 +3,8 @@ class FoodSpoiledError extends StateError {
 }
 
 class Potato {
+
+  //Sample Code
   int age;
 
   Potato(this.age);

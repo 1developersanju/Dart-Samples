@@ -52,3 +52,20 @@ testing_param(p1,{tp1, tp2}) {
   print("Named Param 1 Valus Is : ${tp1}"); 
   print("Named Param 2 Valus Is : ${tp2}"); 
 }
+
+----------________------___--_--_--_--_---__--_-__-__-__--_--_--_--_--___--______---
+
+
+void main() {
+
+	printCountries("USA","India");  // You can skip the Optional Positional Parameters
+
+}
+
+// Optional Positional Parameters
+void printCountries(String name1, [String name2, String name3]) {
+
+	print("Name 1 is $name1");
+	print("Name 2 is $name2");
+	print("Name 3 is $name3");
+}

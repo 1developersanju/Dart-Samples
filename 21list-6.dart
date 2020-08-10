@@ -74,3 +74,28 @@ void main() {
 
 
 ------------------------------------------------------------------------------------------
+//Fixed Length List
+
+void main() {
+
+	List<int> numbersList = List(5);        // Fixed-length list
+	numbersList[0] = 73;  // Insert operation
+	numbersList[1] = 64;
+	numbersList[3] = 21;
+	numbersList[4] = 12;
+
+	numbersList[0] = 43;  // Update operation
+	numbersList[1] = null;// Delete operation
+
+	print(numbersList[0]);
+	print("\n");
+
+	for (int element in numbersList) {                          // Using Individual Element (Objects)
+		print(element);
+	}
+
+	print("\n");
+
+	numbersList.forEach((element) => print(element));           // Using Lambda
+
+}

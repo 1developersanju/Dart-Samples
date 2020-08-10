@@ -3,8 +3,6 @@ class FoodSpoiledError extends StateError {
 }
 
 class Potato {
-
-//removed test commit
   int age;
 
   Potato(this.age);

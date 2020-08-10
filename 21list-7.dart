@@ -99,3 +99,38 @@ void main() {
 	numbersList.forEach((element) => print(element));           // Using Lambda
 
 }
+------------------------------------------------------------------------------------------
+//growable list
+
+
+void main() {
+
+	List<int> numbersList = List();                         // Growable List: METHOD 2
+	numbersList.add(73);    // Insert Operation
+	numbersList.add(64);
+	numbersList.add(21);
+	numbersList.add(12);
+
+	numbersList[0] = 12;    // Update operation
+	numbersList[1] = null;  // Delete operation
+
+	print(numbersList[0]);
+
+	numbersList.remove(99);
+	numbersList.add(24);
+	numbersList.removeAt(3);
+//	numbersList.clear();
+
+	print("\n");
+
+	for (int element in numbersList) {                  // Using Individual Element ( Objects )
+		print(element);
+	}
+
+	print("\n");
+
+	numbersList.forEach((element) => print(element));   // Using Lambda
+
+
+
+}

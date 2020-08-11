@@ -64,3 +64,21 @@ class Dog extends Animal {
 		print("More food to eat");
 	}
 }
+
+------------------------------------------------------------------------------
+// polymorphism or method overriding
+
+void main(){ 
+  Honda car1 =  new Honda();
+  car1.driving();
+}class Car{
+  void driving(){
+    print("driving car 1");
+  }
+}
+
+class Honda extends Car{
+    void driving(){
+    print("driving car 2");
+  } 
+

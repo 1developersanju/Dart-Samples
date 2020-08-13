@@ -3,8 +3,7 @@ void main() {
    printMsg(); 
    print(test()); 
 }  
-printMsg()=>
-print("hello"); 
+printMsg()=>print("hello"); 
 
 int test()=>123;                       
 // returning function
@@ -45,16 +44,14 @@ void main() {
 
 
 ---------------------------------------------------------------------------
-//parse function - similar to int.
+// parse function - converts string to integer. 
 
-
-
-
-void main() { 
-   print(num.parse("15")); 
-   print(num.parse("15.75")); 
+void main() {
+    var a = "10"; // An integer
+    var b = 20; // A string
+    var c = int.parse(a);
+    print(b + c);
 }
-
 _____________________________________________________________________------_____________
 
 
